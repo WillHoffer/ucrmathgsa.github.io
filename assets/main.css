@@ -1,0 +1,82 @@
+/* main.css */
+
+/* Global Defaults */
+* {
+    border:0; 
+    font:inherit; 
+    font-size:1em; 
+    margin:0; 
+    padding:0; 
+    vertical-align:baseline;
+    /*Uncomment the following line to debug alignment*/
+    /*border:1px solid black;*/
+  }
+
+/* HTML elements */
+body{
+    background-image:url("images/background.png");
+    background-color:#ffffff;
+    background-attachment:fixed;
+}
+
+div.page{
+    background-color:#ffffff;
+    color:#333333; 
+    font-family:'Gothic A1',sans-serif;
+    font-size:1em;
+    line-height:1.33em;
+    margin: 2em auto;
+    padding: 3em 12ex 4em 12ex;
+    width: 960px;
+    border: 1px solid #fafaf0;
+    box-shadow: 4px 4px 26px 4px rgba(0, 0, 0, 0.2);
+}
+
+h1,h2,h3,h4 {clear:left; font-weight:500; color:#aa3333; font-family:'Nanum Myeongjo',serif; margin:1em 0 0.67em 0;}
+h1 {font-size:2.67em;}
+h2 {font-size:2.00em;}
+h3 {font-size:1.83em;}
+h3 {font-size:1.50em;}
+p,ul,ol {margin:0.33em 0 0.33em 0; list-style:none;}
+ul li {position:relative; margin:0.5ex 2em 1ex 2em;}
+ol li {position:relative; margin:0.5ex 0 1ex 0;}
+i,em {font-style:italic;}
+b,strong {font-weight:720;}
+a {color:#336699; text-decoration:none;}
+a:hover {color:#3399cc; text-decoration:none;}
+div.images {margin: 2ex 1em 2ex 1em;}
+img {display: block; width:100%; padding:0; margin:0;}
+
+/* Officer Names and Emails */
+table.officers {margin: 0.67em 0ex 1em 0ex;}
+td.officer {white-space:nowrap; width:25%; text-align:center; vertical-align:middle; padding:1em 2ex 1em 2ex;}
+
+/* Double Columns for Helpful Links and Images*/
+div.row {display: flex;}
+div.two-column {flex: 50%;}
+div.two-column ul li {position:relative; margin:0 0 0.167em 0; padding: 0em 1em 0em 1em; text-indent:-1em;}
+div.three-column {flex: 33%;}
+div.four-column {flex: 25%;}
+
+/* Summary/Details tags for Proceedings*/
+details {display: block; margin: 1ex 1em 2ex 1em;}
+details summary {color: #336699; padding: 1ex 0 1ex 1em;}
+details summary:hover {background-color: #eeeeee;}
+details summary:active {background-color: #ffffff;}
+
+/* Footer */
+div.footer {clear:both; position:relative; font-size:1em; text-align:center; margin: 10em 0 0 0;}
+
+/* LaTeX Logo */
+.latex, .latex sub .latex-title .latex-title sub {font-size:1em;}
+.latex sub {text-transform:uppercase; vertical-align:-0.4ex; margin-left:-0.1667em; margin-right:-0.125em;}
+.latex sup {text-transform:uppercase; font-size:0.85em; vertical-align:0.15em; margin-left:-0.36em; margin-right:-0.15em;}
+/* This can be used with the following HTML */
+/* <span class="latex">L<sup>a</sup>T<sub>e</sub>X</span> */
+
+/* UCR Math Logo */ 
+.ucr-blue {color:#2d6cc0}
+.ucr-gold {color:#f1ab00}
+/* This can be used with the following HTML */
+/* <a href="http://mathdept.ucr.edu"><span class="ucr-gold">UC</span><span class="ucr-blue">R Math</span></a> */
+
