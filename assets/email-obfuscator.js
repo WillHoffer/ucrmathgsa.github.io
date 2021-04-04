@@ -28,13 +28,13 @@ window.onload = function () {
     // Christian Williams
     document.getElementById("president-email").innerHTML="<n uers=\"znvygb:jvyyvnzf@zngu.hpe.rqh\" gnetrg=\"_oynax\">jvyyvnzf@zngu.hpe.rqh</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
 
-    // James Alcala
+    // Neima Ghandian
     document.getElementById("vicepresident-email").innerHTML="<n uers=\"znvygb:wnzrf.nypnyn@hpe.rqh\" gnetrg=\"_oynax\">wnzrf.nypnyn@hpe.rqh</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
 
-    // Jonathan Dugan
+    // James Alcala
     document.getElementById("treasurer-email").innerHTML="<n uers=\"znvygb:wbaqhtna@zngu.hpe.rqh\" gnetrg=\"_oynax\">wbaqhtna@zngu.hpe.rqh</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
 
-    // Mike Pierce
+    // Matthew Overduin
     document.getElementById("secretary-email").innerHTML="<n uers=\"znvygb:zcvrepr@zngu.hpe.rqh\" gnetrg=\"_oynax\">zcvrepr@zngu.hpe.rqh</n>".replace(/[a-zA-Z]/g,function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);});
 
     // Margarita Roman
